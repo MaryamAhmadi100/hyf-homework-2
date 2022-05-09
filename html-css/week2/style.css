@@ -1,11 +1,12 @@
 *{
     box-sizing: border-box;
- 
+    
   }
 
   body {
     background: white;
     color: black;
+      /* The margin in body can be removed, so the navigation bar fills up at the sides and at the top */
   }
   
   .grid-container {
@@ -67,7 +68,10 @@
   .contener {
     display: grid;
     grid-template-columns: 0.5fr 1fr;
+      
+    /* The height is not needed */
     grid-template-rows: 0.5fr 0.5fr;
+      
     margin: 1em 3em; 
     gap: 3em;
   }
